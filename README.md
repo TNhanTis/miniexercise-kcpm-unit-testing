@@ -31,7 +31,7 @@ Lần chạy đầu Maven sẽ tải thư viện về, mất 1–2 phút. Kết 
 - Hạng VIP: được ân hạn 2 ngày đầu (không tính phí), từ ngày thứ 3 tính 1.000đ/ngày.
 - Phí tối đa là **50.000đ**, dù trễ bao nhiêu ngày.
 
-**Mượn sách** (`LoanService.borrow`): hệ thống kiểm tra theo thứ tự sau, gặp điều kiện nào không thỏa thì ném `LoanException` với mã tương ứng:
+**Mượn sách** (`LoanService.borrow`): hệ thống kiểm tra theo thứ tự sau, gặp điều kiện nào không thỏa thì ném `LoanException` với mã tương ứng:......
 
 | # | Điều kiện | Mã lỗi khi vi phạm |
 |---|---|---|
