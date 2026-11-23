@@ -1,6 +1,6 @@
 # Báo cáo lab Nhóm 09
 
-**Họ tên:** [Họ và tên của bạn] · **MSSV:** [Mã số sinh viên của bạn] · **JDK đã dùng** (kết quả `java -version`): `java version "17.0.19" 2026-04-21 LTS`
+**Họ tên:** Nguyễn Trọng Nhân · **MSSV:** 23120065 · **JDK đã dùng** (kết quả `java -version`): `java version "17.0.19" 2026-04-21 LTS`
 
 ## Bài 1: Giá trị biên
 
@@ -82,4 +82,5 @@
 - Giải thích từ thực tế bài lab:
   1. **Coverage chỉ ghi nhận code đã được thực thi (execution), không đánh giá tính đúng đắn của logic:** Ở bài 2a, khi ta viết test với số sách là `4L`, JaCoCo đã ghi nhận **100% branch coverage** và **100% line coverage** (build hoàn toàn xanh). Dù vậy, code vẫn chứa lỗi nghiệp vụ nghiêm trọng (`> 3` thay vì `>= 3`), khiến người đang mượn 3 cuốn vẫn mượn tiếp được sách thứ 4.
   2. **Coverage không kiểm tra được các giá trị biên:** Test chỉ cần kích hoạt nhánh rẽ (True/False) bằng một giá trị tùy ý là đã tính đủ 100% coverage, nhưng hoàn toàn có thể bỏ lọt các lỗi biên (off-by-one errors) do chọn sai test case.
-  3. **Ý nghĩa của Mutation Testing:** Mutation testing kiểm tra chất lượng thực sự của test suite bằng cách cố tình tạo lỗi giả lập (mutants). Nhờ PIT chỉ ra mutant sống sót ở giá trị biên, ta mới phát hiện test chưa đủ chặt chẽ và bộc lộ được lỗi tiềm ẩn trong source code.
+  3. **Ý nghĩa của Mutation Testing:** Mutation testing kiểm tra chất lượng thực sự của test suite bằng cách cố tình tạo lỗi giả lập (mutants). Nhờ PIT chỉ ra mutant sống sót ở giá trị biên, ta mới phát hiện test chưa đủ chặt chẽ và bộc lộ được lỗi tiềm ẩn trong source code.....
+  
